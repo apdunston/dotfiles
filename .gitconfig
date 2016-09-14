@@ -1,0 +1,10 @@
+[core]
+	excludesfile = /Users/dunston/.gitignore_global
+[user]
+	name = Adrian Dunston
+	email = adrian@spreedly.com
+[alias]
+	co = checkout
+	br = branch
+	ci = commit
+	st = status
