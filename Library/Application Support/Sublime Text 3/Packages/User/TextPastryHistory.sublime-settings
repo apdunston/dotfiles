@@ -1,0 +1,29 @@
+{
+	"history":
+	[
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "range 1..29",
+					"threshold": 3
+				},
+				"command": "text_pastry_insert_text",
+				"text": "range 1..29"
+			},
+			"key": "8a29af56d97346bfbbc906d53957374b",
+			"label": "range 1..29"
+		}
+	],
+	"last_command":
+	{
+		"args":
+		{
+			"text": "range 1..29",
+			"threshold": 3
+		},
+		"command": "text_pastry_insert_text",
+		"text": "range 1..29"
+	}
+}

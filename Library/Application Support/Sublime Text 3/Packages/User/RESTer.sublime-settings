@@ -1,0 +1,8 @@
+{
+    // Additional options to send to cURL. Each option must be a separate
+    // string. For example, to add custom header:
+    // curl_options: ["--header", "X-Custom-Header: 1"]
+    //
+    // Only meaningful when http_client is "curl"
+    // "curl_options": ["--user AsjIb0QvUgUBu2BwIEazdjgxlXf:CqideXZAKniV9InML2F5PInqTvwhV5N2DnhXeszogevAjZQcS9gYCAZHM0vMnki4"]
+}

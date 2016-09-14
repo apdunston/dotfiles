@@ -1,3 +1,20 @@
+#\!Library/Application Support/Sublime Text 3/Packages/User/adrian-comment.sublime-macro
+Library/**/*
+!Library/Application Support/
+!Library/Application Support/Sublime Text 3/
+!Library/Application Support/Sublime Text 3/Packages/
+!Library/Application Support/Sublime Text 3/Packages/User/
+!Library/Application Support/Sublime Text 3/Packages/User/*macro
+!Library/Application Support/Sublime Text 3/Packages/User/*snippet
+!Library/Application Support/Sublime Text 3/Packages/User/*settings
+!Library/Application Support/Sublime Text 3/Packages/User/*keymap
+!Library/Application Support/Sublime Text 3/Packages/User/*theme
+!Library/Application Support/Sublime Text 3/Packages/User/**/
+!Library/Application Support/Sublime Text 3/Packages/User/**/*macro
+!Library/Application Support/Sublime Text 3/Packages/User/**/*snippet
+!Library/Application Support/Sublime Text 3/Packages/User/**/*settings
+!Library/Application Support/Sublime Text 3/Packages/User/**/*keymap
+!Library/Application Support/Sublime Text 3/Packages/User/**/*theme
 .DS_Store
 .tags
 .CFUserTextEncoding
@@ -48,7 +65,6 @@ Downloads/
 Dropbox (Personal)/
 Dropbox (Spreedly)/
 Gemfile.lock
-Library/
 Movies/
 Music/
 Pictures/

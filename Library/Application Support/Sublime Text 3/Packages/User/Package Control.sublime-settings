@@ -1,0 +1,27 @@
+{
+	"bootstrapped": true,
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"AutoSpell",
+		"CTags",
+		"Elixir",
+		"ElixirSublime",
+		"Google Spell Check",
+		"HTML-CSS-JS Prettify",
+		"Indent XML",
+		"Javascript Beautify",
+		"Markdown Preview",
+		"Move By Paragraph",
+		"Package Control",
+		"Pretty JSON",
+		"RESTer HTTP Client",
+		"SublimeLinter",
+		"SublimeLinter-contrib-elixirc",
+		"Text Pastry",
+		"TrailingSpaces",
+		"Zen Tabs"
+	]
+}

@@ -1,0 +1,9 @@
+<snippet>
+    <content><![CDATA[raise Exception.new("$1")]]></content>
+    <!-- Optional: Tab trigger to activate the snippet -->
+    <tabTrigger>re</tabTrigger>
+    <!-- Optional: Scope the tab trigger will be active in -->
+    <scope>source.ruby</scope>
+    <!-- Optional: Description to show in the menu -->
+    <description>Raise Exception</description>
+</snippet>
