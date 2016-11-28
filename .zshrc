@@ -54,7 +54,7 @@ plugins=(git bundler osx rake ruby sublime hub heroku history httpie zsh-syntax-
 
 # User configuration
 
-export PATH="/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Applications/Postgres.app/Contents/Versions/9.3/bin"
+export PATH="/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Applications/Postgres.app/Contents/Versions/latest/bin"
 # export MANPATH="/usr/local/man:$MANPATH"
 
 source $ZSH/oh-my-zsh.sh
@@ -89,6 +89,7 @@ txt() { curl -X POST http://textbelt.com/text -d number=9193021008 -d "message=$
 alias g="adrian_comment_check; git"
 alias watch="watchr ~/config/ruby.watchr"
 alias restart_pow="touch ~/.pow/restart.txt"
+alias services=$HOME/dev/dev-services/bin/services
 
 # Set compatibility with bash complete
 autoload bashcompinit
