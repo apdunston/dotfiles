@@ -77,3 +77,23 @@ foo.txt
 foo/
 gpg/
 scratch/
+.account
+.anyconnect
+.atom/
+.cisco/
+.composer/
+.cpan/
+.gradle/
+.histfile
+.m2/
+.mix/
+.mysql_history
+.python_history
+.rediscli_history
+.zcompdump-adunstonpro-5.0.8
+.zcompdump-adunstonpro-5.3
+Dropbox/
+Google Drive/
+downloadss
+dump.rdb
+perl5/

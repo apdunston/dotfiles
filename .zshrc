@@ -1,5 +1,5 @@
 # Path to your oh-my-zsh installation.
-export ZSH=/Users/dunston/.oh-my-zsh
+export ZSH=/Users/adunston/.oh-my-zsh
 
 # Set name of the theme to load.
 # Look in ~/.oh-my-zsh/themes/
@@ -50,11 +50,11 @@ CASE_SENSITIVE="true"
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git bundler osx rake ruby sublime hub heroku history httpie zsh-syntax-highlighting)
+plugins=(git bundler osx sublime history httpie zsh-syntax-highlighting)
 
 # User configuration
 
-export PATH="/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Applications/Postgres.app/Contents/Versions/latest/bin"
+export PATH="/Users/adunston/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/mysql/bin"
 # export MANPATH="/usr/local/man:$MANPATH"
 
 source $ZSH/oh-my-zsh.sh
@@ -83,13 +83,10 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
-DEFAULT_USER=dunston
+DEFAULT_USER=adunston
 
 txt() { curl -X POST http://textbelt.com/text -d number=9193021008 -d "message=$*" }
-alias g="adrian_comment_check; git"
 alias watch="watchr ~/config/ruby.watchr"
-alias restart_pow="touch ~/.pow/restart.txt"
-alias services=$HOME/dev/dev-services/bin/services
 
 # Set compatibility with bash complete
 autoload bashcompinit
@@ -97,7 +94,12 @@ bashcompinit
 
 source ~/.bashrc
 
-. $HOME/.asdf/asdf.sh
-. $HOME/.asdf/completions/asdf.bash
+alias my='function _my() { mysql -u root --password=root $1 };_my'
+alias spy='function _spy() { java -jar ~/jars/schemaSpy_5.0.0.jar -t mysql -db $1 -u root -p root -o ~/Google\ Drive/schemaSpy/$1 -host localhost -dp ~/jars/mysql-connector-java-5.1.40-bin.jar };_spy'
 
-ulimit -n 65536
+source ~/.zshrc.netsertive
+PATH="/Users/adunston/perl5/bin${PATH:+:${PATH}}"; export PATH;
+PERL5LIB="/Users/adunston/perl5/lib/perl5${PERL5LIB:+:${PERL5LIB}}"; export PERL5LIB;
+PERL_LOCAL_LIB_ROOT="/Users/adunston/perl5${PERL_LOCAL_LIB_ROOT:+:${PERL_LOCAL_LIB_ROOT}}"; export PERL_LOCAL_LIB_ROOT;
+PERL_MB_OPT="--install_base \"/Users/adunston/perl5\""; export PERL_MB_OPT;
+PERL_MM_OPT="INSTALL_BASE=/Users/adunston/perl5"; export PERL_MM_OPT;

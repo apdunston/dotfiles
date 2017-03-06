@@ -1,12 +1,31 @@
-[core]
-	excludesfile = /Users/dunston/.gitignore_global
 [user]
 	name = Adrian Dunston
-	email = adrian@spreedly.com
+	email = adunston@netsertive.com
+[credential]
+	helper = osxkeychain
+[core]
+	excludesfile = /Users/adunston/.gitignore.global
+[difftool "sourcetree"]
+	cmd = opendiff \"$LOCAL\" \"$REMOTE\"
+	path =
+[mergetool "sourcetree"]
+	cmd = /Applications/SourceTree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
+	trustExitCode = true
+[diff]
+  guitool = opendiff
 [alias]
-	co = checkout
-	br = branch
-	ci = commit
-	st = status
-[commit]
-  template = ~/.gitcommitmessage.txt
+  a = add
+  b = branch
+  c = commit
+  d = diff
+  f = fetch
+  g = grep
+  l = log
+  m = merge
+  o = checkout
+  p = pull
+  r = remote
+  s = status
+  st = status
+  w = whatchanged
+  co = checkout
