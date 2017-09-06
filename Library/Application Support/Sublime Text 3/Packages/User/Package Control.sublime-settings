@@ -6,12 +6,15 @@
 	"installed_packages":
 	[
 		"AutoSpell",
+		"Case Conversion",
 		"CTags",
 		"Elixir",
 		"ElixirSublime",
+		"Emoji",
 		"Google Spell Check",
 		"HTML-CSS-JS Prettify",
 		"Indent XML",
+		"IndentX",
 		"Javascript Beautify",
 		"Markdown Preview",
 		"Move By Paragraph",
@@ -20,6 +23,7 @@
 		"RESTer HTTP Client",
 		"SublimeLinter",
 		"SublimeLinter-contrib-elixirc",
+		"SublimeLinter-phplint",
 		"Text Pastry",
 		"TrailingSpaces",
 		"Zen Tabs"

@@ -9,4 +9,28 @@
   {"keys": ["super+shift+1"], "command": "run_macro_file", "args": {"file": "res://Packages/User/adrian-comment.sublime-macro"}},
   { "keys": ["ctrl+pageup"], "command": "prev_view" },
   { "keys": ["ctrl+pagedown"], "command": "next_view" },
+
+  // From IntelliJ experiences
+  { "keys": ["super+["], "command": "jump_back" },
+  { "keys": ["super+]"], "command": "jump_forward" },
+
+  { "keys": ["super+b"], "command": "goto_definition" },
+  // Mouse 3 column select
+    {
+        "button": "button2",
+        "count": 1,
+        "modifiers": ["alt"],
+        "press_command": "drag_select",
+        "command": "goto_definition"
+    },   // {
+    //     "button": "button3", "modifiers": ["ctrl"],
+    //     "press_command": "drag_select",
+    //     "press_args": {"by": "columns", "additive": true}
+    // },
+    // {
+    //     "button": "button3", "modifiers": ["alt"],
+    //     "press_command": "drag_select",
+    //     "press_args": {"by": "columns", "subtractive": true}
+    // }
+
 ]
